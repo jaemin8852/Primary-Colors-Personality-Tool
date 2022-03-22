@@ -58,6 +58,17 @@
 		}
 	}
 </script>
+
+<style>
+	tr {
+		word-break: break-all;
+	}
+	
+	td p {
+		font-size: 11px;
+	}
+</style>
+
 <html>
 	<head>
 		<!-- Required meta tags -->
@@ -90,95 +101,95 @@
 				Then Row 3, Row 4 and so on, until you have done this for all seven rows.<br>
 			</p>
 			<br>
-		<table border="1">
+		<table border="1" style="width: 100%; table-layout:fixed">
 			<tr align="center">
-				<th width="4%" bgcolor="black"></th>
-				<th width="16%" bgcolor="red">RED</th>
-				<th width="16%" bgcolor="orange">ORANGE</th>
-				<th width="16%" bgcolor="yellow">YELLOW</th>
-				<th width="16%" bgcolor="green">GREEN</th>
-				<th width="16%" bgcolor="blue">BLUE</th>
-				<th width="16%" bgcolor="purple">PURPLE</th>
+				<th width="1%" bgcolor="black"></th>
+				<th width="2%" bgcolor="red">RED</th>
+				<th width="2%" bgcolor="orange">ORANGE</th>
+				<th width="2%" bgcolor="yellow">YELLOW</th>
+				<th width="2%" bgcolor="green">GREEN</th>
+				<th width="2%" bgcolor="blue">BLUE</th>
+				<th width="2%" bgcolor="purple">PURPLE</th>
 			</tr>
 
 			<tr align="center">
 				<td bgcolor="black" style="color: white;">ROW 1</td>
-				<td bgcolor="#FFCCCC"><input type="checkbox" name="1" value="1" onclick="change(this.name, this.value)"><span id="11"></span><br>FORCEFUL,<br>DETERMINED</th>
-				<td bgcolor="#FFCC99"><input type="checkbox" name="1" value="2" onclick="change(this.name, this.value)"><span id="12"></span><br>LIKES VARIETY,<br>LIKES PEOPLE</th>
-				<td bgcolor="#FFFF99"><input type="checkbox" name="1" value="3" onclick="change(this.name, this.value)"><span id="13"></span><br>PEACEMAKER,<br>AGREEABLE</th>
-				<td bgcolor="#CCFFCC"><input type="checkbox" name="1" value="4" onclick="change(this.name, this.value)"><span id="14"></span><br>HONEST,<br>DESIRES FAIRNESS</th>
-				<td bgcolor="#CCCCFF"><input type="checkbox" name="1" value="5" onclick="change(this.name, this.value)"><span id="15"></span><br>LIKES CLEAR INSTRUCTIONS</th>
-				<td bgcolor="#CC66FF"><input type="checkbox" name="1" value="6" onclick="change(this.name, this.value)"><span id="16"></span><br>PRODUCTIVE,<br>RESPONSIBLE</th>
+				<td bgcolor="#FFCCCC"><input type="checkbox" name="1" value="1" onclick="change(this.name, this.value)"><span id="11"></span><br><p>FORCEFUL,<br>DETERMINED</p></td>
+				<td bgcolor="#FFCC99"><input type="checkbox" name="1" value="2" onclick="change(this.name, this.value)"><span id="12"></span><br><p>LIKES VARIETY,<br>LIKES PEOPLE</p></td>
+				<td bgcolor="#FFFF99"><input type="checkbox" name="1" value="3" onclick="change(this.name, this.value)"><span id="13"></span><br><p>PEACEMAKER,<br>AGREEABLE</p></td>
+				<td bgcolor="#CCFFCC"><input type="checkbox" name="1" value="4" onclick="change(this.name, this.value)"><span id="14"></span><br><p>HONEST,<br>DESIRES<br>FAIRNESS</p></td>
+				<td bgcolor="#CCCCFF"><input type="checkbox" name="1" value="5" onclick="change(this.name, this.value)"><span id="15"></span><br><p>LIKES CLEAR<br>INSTRUCTIONS</p></td>
+				<td bgcolor="#CC66FF"><input type="checkbox" name="1" value="6" onclick="change(this.name, this.value)"><span id="16"></span><br><p>PRODUCTIVE,<br>RESPONSIBLE</p></td>
 			</tr>
 
 			<tr align="center">
 				<td bgcolor="black" style="color: white;">ROW 2</td>
-				<td bgcolor="#FFCCCC"><input type="checkbox" name="2" value="1" onclick="change(this.name, this.value)"><span id="21"></span><br>LIKE GOALS,<br>TAKES ACTION</th>
-				<td bgcolor="#FFCC99"><input type="checkbox" name="2" value="2" onclick="change(this.name, this.value)"><span id="22"></span><br>INSPIRING, GREAT<br>COMMUNICATOR</th>
-				<td bgcolor="#FFFF99"><input type="checkbox" name="2" value="3" onclick="change(this.name, this.value)"><span id="23"></span><br>PATIENT,<br>CARING</th>
-				<td bgcolor="#CCFFCC"><input type="checkbox" name="2" value="4" onclick="change(this.name, this.value)"><span id="24"></span><br>HUMBLE,<br>VALUES TRUST</th>
-				<td bgcolor="#CCCCFF"><input type="checkbox" name="2" value="5" onclick="change(this.name, this.value)"><span id="25"></span><br>PERFECTIONIST,<br>PICKY</th>
-				<td bgcolor="#CC66FF"><input type="checkbox" name="2" value="6" onclick="change(this.name, this.value)"><span id="26"></span><br>GETS THINGS DONE ON TIME</th>
+				<td bgcolor="#FFCCCC"><input type="checkbox" name="2" value="1" onclick="change(this.name, this.value)"><span id="21"></span><br><p>LIKE GOALS,<br>TAKES ACTION</p></td>
+				<td bgcolor="#FFCC99"><input type="checkbox" name="2" value="2" onclick="change(this.name, this.value)"><span id="22"></span><br><p>INSPIRING, GREAT<br>COMMUNICATOR</p></td>
+				<td bgcolor="#FFFF99"><input type="checkbox" name="2" value="3" onclick="change(this.name, this.value)"><span id="23"></span><br><p>PATIENT,<br>CARING</p></td>
+				<td bgcolor="#CCFFCC"><input type="checkbox" name="2" value="4" onclick="change(this.name, this.value)"><span id="24"></span><br><p>HUMBLE,<br>VALUES TRUST</p></td>
+				<td bgcolor="#CCCCFF"><input type="checkbox" name="2" value="5" onclick="change(this.name, this.value)"><span id="25"></span><br><p>PERFECTIONIST,<br>PICKY</p></td>
+				<td bgcolor="#CC66FF"><input type="checkbox" name="2" value="6" onclick="change(this.name, this.value)"><span id="26"></span><br><p>GETS THINGS DONE ON TIME</p></td>
 			</tr>
 
 			<tr align="center">
 				<td bgcolor="black" style="color: white;">ROW 3</td>
-				<td bgcolor="#FFCCCC"><input type="checkbox" name="3" value="1" onclick="change(this.name, this.value)"><span id="31"></span><br>SPEAKS MIND,<br>STRONG-WILLED</th>
-				<td bgcolor="#FFCC99"><input type="checkbox" name="3" value="2" onclick="change(this.name, this.value)"><span id="32"></span><br>ENTERTAINING,<br>LIFE OF THE PARTY</th>
-				<td bgcolor="#FFFF99"><input type="checkbox" name="3" value="3" onclick="change(this.name, this.value)"><span id="33"></span><br>SUPPORTIVE,<br>GENTLE</th>
-				<td bgcolor="#CCFFCC"><input type="checkbox" name="3" value="4" onclick="change(this.name, this.value)"><span id="34"></span><br>COMMITTED,<br>DEPENDABLE</th>
-				<td bgcolor="#CCCCFF"><input type="checkbox" name="3" value="5" onclick="change(this.name, this.value)"><span id="35"></span><br>THOROUGH,<br>ACCURATE</th>
-				<td bgcolor="#CC66FF"><input type="checkbox" name="3" value="6" onclick="change(this.name, this.value)"><span id="36"></span><br>FOCUSED,<br>COMPLETES THINGS</th>
+				<td bgcolor="#FFCCCC"><input type="checkbox" name="3" value="1" onclick="change(this.name, this.value)"><span id="31"></span><br><p>SPEAKS MIND,<br>STRONG-WILLED</p></td>
+				<td bgcolor="#FFCC99"><input type="checkbox" name="3" value="2" onclick="change(this.name, this.value)"><span id="32"></span><br><p>ENTERTAINING,<br>LIFE OF THE PARTY</p></td>
+				<td bgcolor="#FFFF99"><input type="checkbox" name="3" value="3" onclick="change(this.name, this.value)"><span id="33"></span><br><p>SUPPORTIVE,<br>GENTLE</p></td>
+				<td bgcolor="#CCFFCC"><input type="checkbox" name="3" value="4" onclick="change(this.name, this.value)"><span id="34"></span><br><p>COMMITTED,<br>DEPENDABLE</p></td>
+				<td bgcolor="#CCCCFF"><input type="checkbox" name="3" value="5" onclick="change(this.name, this.value)"><span id="35"></span><br><p>THOROUGH,<br>ACCURATE</p></td>
+				<td bgcolor="#CC66FF"><input type="checkbox" name="3" value="6" onclick="change(this.name, this.value)"><span id="36"></span><br><p>FOCUSED,<br>COMPLETES THINGS</p></td>
 			</tr>
 
 			<tr align="center">
 				<td bgcolor="black" style="color: white;">ROW 4</td>
-				<td bgcolor="#FFCCCC"><input type="checkbox" name="4" value="1" onclick="change(this.name, this.value)"><span id="41"></span><br>QUICK TO ACT,<br>DIRECT</th>
-				<td bgcolor="#FFCC99"><input type="checkbox" name="4" value="2" onclick="change(this.name, this.value)"><span id="42"></span><br>LOVES FUN, MAKES<br>QUICK DECISIONS</th>
-				<td bgcolor="#FFFF99"><input type="checkbox" name="4" value="3" onclick="change(this.name, this.value)"><span id="43"></span><br>GIVES IN<br>TO OTHERS</th>
-				<td bgcolor="#CCFFCC"><input type="checkbox" name="4" value="4" onclick="change(this.name, this.value)"><span id="44"></span><br>SPIRITUAL OUTLOOK,<br>VALUES RESPECT</th>
-				<td bgcolor="#CCCCFF"><input type="checkbox" name="4" value="5" onclick="change(this.name, this.value)"><span id="45"></span><br>LIKES IDEAS, LIKES<br>TO SOLVE PROBLEMS</th>
-				<td bgcolor="#CC66FF"><input type="checkbox" name="4" value="6" onclick="change(this.name, this.value)"><span id="46"></span><br>ORGANIZED,<br>LEVEL-HEADED</th>
+				<td bgcolor="#FFCCCC"><input type="checkbox" name="4" value="1" onclick="change(this.name, this.value)"><span id="41"></span><br><p>QUICK TO ACT,<br>DIRECT</p></td>
+				<td bgcolor="#FFCC99"><input type="checkbox" name="4" value="2" onclick="change(this.name, this.value)"><span id="42"></span><br><p>LOVES FUN, MAKES<br>QUICK DECISIONS</p></td>
+				<td bgcolor="#FFFF99"><input type="checkbox" name="4" value="3" onclick="change(this.name, this.value)"><span id="43"></span><br><p>GIVES IN<br>TO OTHERS</p></td>
+				<td bgcolor="#CCFFCC"><input type="checkbox" name="4" value="4" onclick="change(this.name, this.value)"><span id="44"></span><br><p>SPIRITUAL OUTLOOK,<br>VALUES RESPECT</p></td>
+				<td bgcolor="#CCCCFF"><input type="checkbox" name="4" value="5" onclick="change(this.name, this.value)"><span id="45"></span><br><p>LIKES IDEAS, LIKES<br>TO SOLVE PROBLEMS</p></td>
+				<td bgcolor="#CC66FF"><input type="checkbox" name="4" value="6" onclick="change(this.name, this.value)"><span id="46"></span><br><p>ORGANIZED,<br>LEVEL-HEADED</p></td>
 			</tr>
 
 			<tr align="center">
 				<td bgcolor="black" style="color: white;">ROW 5</td>
-				<td bgcolor="#FFCCCC"><input type="checkbox" name="5" value="1" onclick="change(this.name, this.value)"><span id="51"></span><br>WANTS TO WIN,<br>COMPETITIVE</th>
-				<td bgcolor="#FFCC99"><input type="checkbox" name="5" value="2" onclick="change(this.name, this.value)"><span id="52"></span><br>BLURTS OUT WHAT<br>COMES TO MIND</th>
-				<td bgcolor="#FFFF99"><input type="checkbox" name="5" value="3" onclick="change(this.name, this.value)"><span id="53"></span><br>WARM,<br>UNDERSTANDING</th>
-				<td bgcolor="#CCFFCC"><input type="checkbox" name="5" value="4" onclick="change(this.name, this.value)"><span id="54"></span><br>SINCERE,<br>CAN BE NAIVE</th>
-				<td bgcolor="#CCCCFF"><input type="checkbox" name="5" value="5" onclick="change(this.name, this.value)"><span id="55"></span><br>UNDER CONTROL,<br>INTENSE</th>
-				<td bgcolor="#CC66FF"><input type="checkbox" name="5" value="6" onclick="change(this.name, this.value)"><span id="56"></span><br>LIKES TO TEACH,<br>FOLLOWS RULES</th>
+				<td bgcolor="#FFCCCC"><input type="checkbox" name="5" value="1" onclick="change(this.name, this.value)"><span id="51"></span><br><p>WANTS TO WIN,<br>COMPETITIVE</p></td>
+				<td bgcolor="#FFCC99"><input type="checkbox" name="5" value="2" onclick="change(this.name, this.value)"><span id="52"></span><br><p>BLURTS OUT WHAT<br>COMES TO MIND</p></td>
+				<td bgcolor="#FFFF99"><input type="checkbox" name="5" value="3" onclick="change(this.name, this.value)"><span id="53"></span><br><p>WARM,<br>UNDERSTANDING</p></td>
+				<td bgcolor="#CCFFCC"><input type="checkbox" name="5" value="4" onclick="change(this.name, this.value)"><span id="54"></span><br><p>SINCERE,<br>CAN BE NAIVE</p></td>
+				<td bgcolor="#CCCCFF"><input type="checkbox" name="5" value="5" onclick="change(this.name, this.value)"><span id="55"></span><br><p>UNDER CONTROL,<br>INTENSE</p></td>
+				<td bgcolor="#CC66FF"><input type="checkbox" name="5" value="6" onclick="change(this.name, this.value)"><span id="56"></span><br><p>LIKES TO TEACH,<br>FOLLOWS RULES</p></td>
 			</tr>
 
 			<tr align="center">
 				<td bgcolor="black" style="color: white;">ROW 6</td>
-				<td bgcolor="#FFCCCC"><input type="checkbox" name="6" value="1" onclick="change(this.name, this.value)"><span id="61"></span><br>FIERY,<br>EASILY ANNOYED</th>
-				<td bgcolor="#FFCC99"><input type="checkbox" name="6" value="2" onclick="change(this.name, this.value)"><span id="62"></span><br>RISK TAKER, JUMPS<br>AT OPPORTUNITIES</th>
-				<td bgcolor="#FFFF99"><input type="checkbox" name="6" value="3" onclick="change(this.name, this.value)"><span id="63"></span><br>EASY-GOING,<br>AVOIDS CONFLICT</th>
-				<td bgcolor="#CCFFCC"><input type="checkbox" name="6" value="4" onclick="change(this.name, this.value)"><span id="64"></span><br>PURPOSEFUL,<br>THANKFUL</th>
-				<td bgcolor="#CCCCFF"><input type="checkbox" name="6" value="5" onclick="change(this.name, this.value)"><span id="65"></span><br>LIKES ORDER,<br>LIKES DETAILS</th>
-				<td bgcolor="#CC66FF"><input type="checkbox" name="6" value="6" onclick="change(this.name, this.value)"><span id="66"></span><br>BLUNT,<br>TO THE POINT</th>
+				<td bgcolor="#FFCCCC"><input type="checkbox" name="6" value="1" onclick="change(this.name, this.value)"><span id="61"></span><br><p>FIERY,<br>EASILY ANNOYED</p></td>
+				<td bgcolor="#FFCC99"><input type="checkbox" name="6" value="2" onclick="change(this.name, this.value)"><span id="62"></span><br><p>RISK TAKER, JUMPS<br>AT OPPORTUNITIES</p></td>
+				<td bgcolor="#FFFF99"><input type="checkbox" name="6" value="3" onclick="change(this.name, this.value)"><span id="63"></span><br><p>EASY-GOING,<br>AVOIDS CONFLICT</p></td>
+				<td bgcolor="#CCFFCC"><input type="checkbox" name="6" value="4" onclick="change(this.name, this.value)"><span id="64"></span><br><p>PURPOSEFUL,<br>THANKFUL</p></td>
+				<td bgcolor="#CCCCFF"><input type="checkbox" name="6" value="5" onclick="change(this.name, this.value)"><span id="65"></span><br><p>LIKES ORDER,<br>LIKES DETAILS</p></td>
+				<td bgcolor="#CC66FF"><input type="checkbox" name="6" value="6" onclick="change(this.name, this.value)"><span id="66"></span><br><p>BLUNT,<br>TO THE POINT</p></td>
 			</tr>
 
 			<tr align="center">
 				<td bgcolor="black" style="color: white;">ROW 7</td>
-				<td bgcolor="#FFCCCC"><input type="checkbox" name="7" value="1" onclick="change(this.name, this.value)"><span id="71"></span><br>TAKES CHARGE,<br>PROUD</th>
-				<td bgcolor="#FFCC99"><input type="checkbox" name="7" value="2" onclick="change(this.name, this.value)"><span id="72"></span><br>LOTS OF ENERGY,<br>SPONTANEOUS</th>
-				<td bgcolor="#FFFF99"><input type="checkbox" name="7" value="3" onclick="change(this.name, this.value)"><span id="73"></span><br>LIKES<br>ROMANCE</th>
-				<td bgcolor="#CCFFCC"><input type="checkbox" name="7" value="4" onclick="change(this.name, this.value)"><span id="74"></span><br>BIG PICTURE<br>FOCUS, POLITE</th>
-				<td bgcolor="#CCCCFF"><input type="checkbox" name="7" value="5" onclick="change(this.name, this.value)"><span id="75"></span><br>CURIOUS,<br>LIKES BEING ALONE</th>
-				<td bgcolor="#CC66FF"><input type="checkbox" name="7" value="6" onclick="change(this.name, this.value)"><span id="76"></span><br>LIKES HIGH<br>STANDARDS</th>
+				<td bgcolor="#FFCCCC"><input type="checkbox" name="7" value="1" onclick="change(this.name, this.value)"><span id="71"></span><br><p>TAKES CHARGE,<br>PROUD</p></td>
+				<td bgcolor="#FFCC99"><input type="checkbox" name="7" value="2" onclick="change(this.name, this.value)"><span id="72"></span><br><p>LOTS OF ENERGY,<br>SPONTANEOUS</p></td>
+				<td bgcolor="#FFFF99"><input type="checkbox" name="7" value="3" onclick="change(this.name, this.value)"><span id="73"></span><br><p>LIKES<br>ROMANCE</p></td>
+				<td bgcolor="#CCFFCC"><input type="checkbox" name="7" value="4" onclick="change(this.name, this.value)"><span id="74"></span><br><p>BIG PICTURE<br>FOCUS, POLITE</p></td>
+				<td bgcolor="#CCCCFF"><input type="checkbox" name="7" value="5" onclick="change(this.name, this.value)"><span id="75"></span><br><p>CURIOUS,<br>LIKES BEING ALONE</p></td>
+				<td bgcolor="#CC66FF"><input type="checkbox" name="7" value="6" onclick="change(this.name, this.value)"><span id="76"></span><br><p>LIKES HIGH<br>STANDARDS</p></td>
 			</tr>
 
 			<tr align="center">
 				<td bgcolor="black" style="color: white;">TOTALS</td>
-				<td bgcolor="#FFCCCC"><span id="81"></span>
-				<td bgcolor="#FFCC99"><span id="82"></span>
-				<td bgcolor="#FFFF99"><span id="83"></span>
-				<td bgcolor="#CCFFCC"><span id="84"></span>
-				<td bgcolor="#CCCCFF"><span id="85"></span>
-				<td bgcolor="#CC66FF"><span id="86"></span>
+				<td bgcolor="#FFCCCC"><span id="81"></span></td>
+				<td bgcolor="#FFCC99"><span id="82"></span></td>
+				<td bgcolor="#FFFF99"><span id="83"></span></td>
+				<td bgcolor="#CCFFCC"><span id="84"></span></td>
+				<td bgcolor="#CCCCFF"><span id="85"></span></td>
+				<td bgcolor="#CC66FF"><span id="86"></span></td>
 			</tr>
 
 			<tr align="center">
@@ -194,7 +205,7 @@
 		</div>
 		<br><br>
 		<div class="container">
-			<div class="visible" id="result">
+			<div class="invisible" id="result">
 				<div class="row">
 					<div class="col-md-4"><a href="images/1.jpg" data-title="Result" data-lightbox="result"><img src="images/1.jpg" class="img-fluid" alt="result1"></a></div>
 					<div class="col-md-4"><a href="images/2.jpg" data-title="Result" data-lightbox="result"><img src="images/2.jpg" class="img-fluid" alt="result2"></a></div>
